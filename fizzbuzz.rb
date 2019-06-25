@@ -3,6 +3,8 @@
 def fizzbuzz(number)
   number = number.to_i
   if number % 3 == 0
-    "fizz"
+    "Fizz"
+  elsif number % 5 == 0
+    "Buzz"
   end
 end
