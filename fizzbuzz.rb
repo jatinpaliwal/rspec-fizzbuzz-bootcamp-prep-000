@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(number)
   number = number.to_i
-  if number % 3 || number % 5 == 0
+  if (number % 3 || number % 5) == 0
     "FizzBuzz"
   elsif number % 3 == 0
     "Fizz"
